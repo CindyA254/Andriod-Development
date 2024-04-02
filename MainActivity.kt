@@ -87,7 +87,7 @@ class MainActivity : ComponentActivity() {
                         }
                         Spacer(modifier = Modifier.height(40.dp))
                         Button(onClick = {
-                            val intent = Intent(this@MainActivity,LazyLoadActivity::class.java)
+                            val intent = Intent(this@MainActivity,TopAppBar::class.java)
                                          startActivity(intent)
                                          },
                             colors = ButtonDefaults.buttonColors(Color.Magenta),
